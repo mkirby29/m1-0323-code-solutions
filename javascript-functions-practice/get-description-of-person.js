@@ -1,4 +1,4 @@
 /* exported getDescriptionOfPerson */
 function getDescriptionOfPerson(person) {
-  return person.birthplace;
+  return person.name + ' is a ' + person.occupation + ' from ' + person.birthPlace + '.';
 }
