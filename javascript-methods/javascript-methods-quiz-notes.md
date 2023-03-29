@@ -27,11 +27,11 @@ No, console.log()
 - Roughly how many string methods are there according to the MDN Web docs?
 50
 - Is the return value of a function or method useful in every situation?
-
+No, depends on the situation
 - Roughly how many array methods are there according to the MDN Web docs?
-
+30
 - What three-letter acronym should you always include in your Google search about a JavaScript method or CSS property?
-
+MDN
 ## Notes
 
 All student notes should be written here.
