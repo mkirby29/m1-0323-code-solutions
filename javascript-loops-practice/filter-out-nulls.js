@@ -3,10 +3,9 @@ function filterOutNulls(values) {
   const arr = [];
 
   for (let i = 0; i <= values.length; i++) {
-    if (values[i] === null) {
-      i++;
-    } else {
-      arr.push(values[i]);
+    const val = values[i];
+    if (values[i] != null) {
+      arr.push(val);
     }
   }
   return arr;

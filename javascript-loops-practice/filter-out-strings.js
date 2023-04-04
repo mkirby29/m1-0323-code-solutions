@@ -5,8 +5,6 @@ function filterOutStrings(values) {
   for (let i = 0; i < values.length; i++) {
     if (typeof values[i] !== 'string') {
       arr.push(values[i]);
-    } else {
-      i++;
     }
   }
   return arr;
