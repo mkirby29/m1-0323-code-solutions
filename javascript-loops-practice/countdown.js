@@ -2,7 +2,7 @@
 function countdown(number) {
   const arr = [];
 
-  while (number <= 0) {
+  while (number >= 0) {
     arr.push(number);
     number--;
   }

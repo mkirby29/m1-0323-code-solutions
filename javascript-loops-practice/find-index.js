@@ -1,13 +1,10 @@
 /* exported findIndex */
 function findIndex(array, value) {
-  let x = 1;
+  const num = -1;
 
   for (let i = 0; i < array.length; i++) {
-    if (value === array[i]) {
-      x = 1;
-    } else {
-      x = -1;
+    if (array[i] === value) {
+      return i;
     }
-  }
-  return x;
+  } return num;
 }
