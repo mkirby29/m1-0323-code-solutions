@@ -5,6 +5,41 @@
   </head>
 <body>
   <h1>Coding Form!</h1>
-  <form action=""></form>
+  <form id="usrform">
+    <div>
+      <label for="email">Email</label>
+    </div>
+    <div>
+      <input type="text" id="email">
+    </div>
+    <div>
+      <label for="code">Why is coding cool?</label>
+    </div>
+    <div>
+      <select id="code">
+        <option value="select an option">Select an option</option>
+        <option value="because it's interesting">Because it's interesting</option>
+        <option value="because it's fun">Because it's fun</option>
+        <option value="because it's powerful">Because it's powerful</option>
+      </select>
+    </div>
+    <p>Favorite Language (choose one)</p>
+    <input type="radio" id="html">
+    <label for="html">HTML</label>
+    <input type="radio" id="css">
+    <label for="css">CSS</label>
+    <input type="radio" id="javascript">
+    <label for="javascript">JavaScript</label>
+    <p>Would you like to sign up for more information?</p>
+    <input type="checkbox" id="signup">
+    <label for="signup">Sign me up!</label>
+    <div>
+      <label for="comments">Comments</label>
+    </div>
+    <div>
+      <textarea rows="10" cols="30" name="comment" form="usrform"></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
 </body>
 </html>
